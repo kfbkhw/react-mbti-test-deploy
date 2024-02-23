@@ -1,12 +1,11 @@
 import { useEffect } from 'react';
 import { ShareButton } from '../pages/ResultPage';
 import { KAKAO_KEY } from '../constants/KakaoJSKey';
+import { URL } from '../constants/DeployedUrl';
 
 const Kakao = (window as any).Kakao;
 
 export default function KakaoShareButton({ result }: { result: string }) {
-    const URL = 'http://localhost:5173/';
-
     useEffect(() => {
         if (!Kakao.isInitialized()) Kakao.init(KAKAO_KEY);
     }, []);
@@ -17,7 +16,7 @@ export default function KakaoShareButton({ result }: { result: string }) {
             content: {
                 title: '🐈‍⬛🐈 MeowBTI Test Result 🐈🐈‍⬛',
                 description: `I got ${result} as my purrfect cat!`,
-                imageUrl: '/cat.png',
+                imageUrl: URL + '/cat.png',
                 link: {
                     mobileWebUrl: URL,
                     webUrl: URL,
