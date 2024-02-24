@@ -50,7 +50,7 @@ export default function Result({ result, isResult, resetResult }: ResultProps) {
 
 const Section = styled.section`
     width: 100%;
-    min-height: calc(100vh - 120px);
+    height: calc(100vh - 120px);
 `;
 
 const Wrap = styled.div`
