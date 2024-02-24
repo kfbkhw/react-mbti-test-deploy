@@ -44,6 +44,7 @@ export default function Result({ result, isResult, resetResult }: ResultProps) {
                     </StartButton>
                 </Wrap>
             )}
+            <div className="adfit"></div>
         </Section>
     );
 }

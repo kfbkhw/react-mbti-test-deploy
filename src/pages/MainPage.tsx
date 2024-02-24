@@ -19,6 +19,7 @@ export default function Main() {
                     <StartTestButton>TAKE THE TEST NOW!</StartTestButton>
                 </Link>
             </StartTest>
+            <div className="adfit"></div>
         </Section>
     );
 }
