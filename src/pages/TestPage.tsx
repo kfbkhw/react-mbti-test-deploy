@@ -13,5 +13,5 @@ export default function Test() {
 
 const Section = styled.section`
     width: 100%;
-    min-height: 100vh;
+    min-height: calc(100vh - 100px);
 `;
