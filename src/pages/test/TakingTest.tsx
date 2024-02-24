@@ -58,7 +58,7 @@ const Wrap = styled.div`
     justify-content: center;
     gap: 50px;
     width: 100%;
-    height: calc(100vh - 178px);
+    height: calc(100vh - 200px);
     padding: 20px;
     background-color: #fffdf5;
 `;

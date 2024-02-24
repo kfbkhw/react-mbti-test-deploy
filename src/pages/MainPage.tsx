@@ -25,7 +25,7 @@ export default function Main() {
 
 const Section = styled.section`
     width: 100%;
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 120px);
 `;
 
 const Title = styled.h2`
