@@ -31,8 +31,8 @@ export default function KakaoShareButton({ result }: { result: string }) {
                 {
                     title: 'Try it yourself!',
                     link: {
-                        mobileWebUrl: URL + '/test',
-                        webUrl: URL + '/test',
+                        mobileWebUrl: URL,
+                        webUrl: URL,
                     },
                 },
             ],
